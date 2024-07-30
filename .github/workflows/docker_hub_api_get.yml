@@ -1,4 +1,4 @@
-name: docker_hub_api_get.yml
+name: docker_hub_api_get
 
 on:
   issues:
