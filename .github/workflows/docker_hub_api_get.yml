@@ -1,0 +1,13 @@
+name: docker_hub_api_get.yml
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GET api's in workspace
+        run: | 
+          curl --request GET --url https://registry.hub.docker.com/v2/repositories/library/jdk/tags
