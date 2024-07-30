@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: GET api's in workspace
         run: | 
-          curl --request GET --url https://hub.docker.com/v2/repositories/library/jdk/tags?page_size=1000
+          curl --request GET --url https://registry.hub.docker.com/v1/repositories/jdk/tags?page_size=1000
