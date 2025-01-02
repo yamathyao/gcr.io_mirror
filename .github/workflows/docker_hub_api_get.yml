@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: GET api's in workspace
         run: | 
-          curl --request GET --url https://registry.hub.docker.com/v2/repositories/library/${{ github.event.repository.name }}/tags?page_size=100
+          curl --request GET --url https://registry.hub.docker.com/v2/repositories/library/${{ github.event.issue.name }}/tags?page_size=100
