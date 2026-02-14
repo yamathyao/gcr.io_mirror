@@ -3,7 +3,7 @@ module image-mirror
 go 1.20
 
 require (
-	github.com/docker/docker v28.5.1+incompatible
+	github.com/docker/docker v20.10.17+incompatible
 	github.com/google/go-github/v47 v47.0.0
 	golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
